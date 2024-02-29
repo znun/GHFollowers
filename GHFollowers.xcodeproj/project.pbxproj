@@ -66,9 +66,9 @@
 				CEB3BC5C2B8DA79E00C01D52 /* FavouritesListVC.swift */,
 				CEC03B1F2B8A37D700AD9475 /* Assets.xcassets */,
 				CEC03B212B8A37D700AD9475 /* LaunchScreen.storyboard */,
-				CEC03B242B8A37D700AD9475 /* Info.plist */,
 				CED0BBCB2B8F0EB7009BEEDE /* GFButton.swift */,
 				CED0BBCD2B8F5595009BEEDE /* GFTextField.swift */,
+				CEC03B242B8A37D700AD9475 /* Info.plist */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
