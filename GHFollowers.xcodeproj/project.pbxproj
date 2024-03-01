@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEA188492B919F1E003F56FD /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA188482B919F1E003F56FD /* FollowerListVC.swift */; };
 		CEB3BC5B2B8DA73000C01D52 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB3BC5A2B8DA73000C01D52 /* SearchVC.swift */; };
 		CEB3BC5D2B8DA79E00C01D52 /* FavouritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB3BC5C2B8DA79E00C01D52 /* FavouritesListVC.swift */; };
 		CEC03B172B8A37D400AD9475 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC03B162B8A37D400AD9475 /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CEA188482B919F1E003F56FD /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		CEB3BC5A2B8DA73000C01D52 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		CEB3BC5C2B8DA79E00C01D52 /* FavouritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesListVC.swift; sourceTree = "<group>"; };
 		CEC03B132B8A37D400AD9475 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +66,7 @@
 				CEC03B182B8A37D400AD9475 /* SceneDelegate.swift */,
 				CEB3BC5A2B8DA73000C01D52 /* SearchVC.swift */,
 				CEB3BC5C2B8DA79E00C01D52 /* FavouritesListVC.swift */,
+				CEA188482B919F1E003F56FD /* FollowerListVC.swift */,
 				CEC03B1F2B8A37D700AD9475 /* Assets.xcassets */,
 				CEC03B212B8A37D700AD9475 /* LaunchScreen.storyboard */,
 				CED0BBCB2B8F0EB7009BEEDE /* GFButton.swift */,
@@ -147,6 +150,7 @@
 				CEB3BC5B2B8DA73000C01D52 /* SearchVC.swift in Sources */,
 				CED0BBCC2B8F0EB7009BEEDE /* GFButton.swift in Sources */,
 				CEC03B172B8A37D400AD9475 /* AppDelegate.swift in Sources */,
+				CEA188492B919F1E003F56FD /* FollowerListVC.swift in Sources */,
 				CEB3BC5D2B8DA79E00C01D52 /* FavouritesListVC.swift in Sources */,
 				CEC03B192B8A37D400AD9475 /* SceneDelegate.swift in Sources */,
 			);
