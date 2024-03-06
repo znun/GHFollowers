@@ -21,6 +21,8 @@
 		CED0BBCC2B8F0EB7009BEEDE /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0BBCB2B8F0EB7009BEEDE /* GFButton.swift */; };
 		CED0BBCE2B8F5595009BEEDE /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0BBCD2B8F5595009BEEDE /* GFTextField.swift */; };
 		CEE9C34E2B983C9600F5C714 /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9C34D2B983C9600F5C714 /* GFError.swift */; };
+		CEE9C3512B986FE900F5C714 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9C3502B986FE900F5C714 /* FollowerCell.swift */; };
+		CEE9C3532B98724D00F5C714 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9C3522B98724D00F5C714 /* GFAvatarImageView.swift */; };
 		CEED28632B972F000071F4A1 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED28622B972F000071F4A1 /* Follower.swift */; };
 		CEED28652B973DF10071F4A1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED28642B973DF10071F4A1 /* User.swift */; };
 		CEED28682B9747980071F4A1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED28672B9747980071F4A1 /* NetworkManager.swift */; };
@@ -43,6 +45,8 @@
 		CED0BBCB2B8F0EB7009BEEDE /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		CED0BBCD2B8F5595009BEEDE /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		CEE9C34D2B983C9600F5C714 /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
+		CEE9C3502B986FE900F5C714 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
+		CEE9C3522B98724D00F5C714 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		CEED28622B972F000071F4A1 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		CEED28642B973DF10071F4A1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CEED28672B9747980071F4A1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -98,6 +102,14 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		CEE9C34F2B986F9800F5C714 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CEE9C3502B986FE900F5C714 /* FollowerCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		CEED285D2B9712980071F4A1 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,11 +123,13 @@
 		CEED285E2B9712F40071F4A1 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				CEE9C34F2B986F9800F5C714 /* Cells */,
 				CED0BBCB2B8F0EB7009BEEDE /* GFButton.swift */,
 				CED0BBCD2B8F5595009BEEDE /* GFTextField.swift */,
 				CEA1884A2B91E5D2003F56FD /* GFTitleLabel.swift */,
 				CEA1884E2B91EAD5003F56FD /* GFAlertVC.swift */,
 				CEA1884C2B91E924003F56FD /* GFBodyLabel.swift */,
+				CEE9C3522B98724D00F5C714 /* GFAvatarImageView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -231,8 +245,10 @@
 				CEB3BC5B2B8DA73000C01D52 /* SearchVC.swift in Sources */,
 				CED0BBCC2B8F0EB7009BEEDE /* GFButton.swift in Sources */,
 				CEA188512B924CA7003F56FD /* UIViewController+Ext.swift in Sources */,
+				CEE9C3532B98724D00F5C714 /* GFAvatarImageView.swift in Sources */,
 				CEC03B172B8A37D400AD9475 /* AppDelegate.swift in Sources */,
 				CEA1884F2B91EAD5003F56FD /* GFAlertVC.swift in Sources */,
+				CEE9C3512B986FE900F5C714 /* FollowerCell.swift in Sources */,
 				CEE9C34E2B983C9600F5C714 /* GFError.swift in Sources */,
 				CEA1884D2B91E924003F56FD /* GFBodyLabel.swift in Sources */,
 				CEED28632B972F000071F4A1 /* Follower.swift in Sources */,
