@@ -20,6 +20,9 @@
 		CEC03B232B8A37D700AD9475 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC03B212B8A37D700AD9475 /* LaunchScreen.storyboard */; };
 		CED0BBCC2B8F0EB7009BEEDE /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0BBCB2B8F0EB7009BEEDE /* GFButton.swift */; };
 		CED0BBCE2B8F5595009BEEDE /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0BBCD2B8F5595009BEEDE /* GFTextField.swift */; };
+		CEED28632B972F000071F4A1 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED28622B972F000071F4A1 /* Follower.swift */; };
+		CEED28652B973DF10071F4A1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED28642B973DF10071F4A1 /* User.swift */; };
+		CEED28682B9747980071F4A1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED28672B9747980071F4A1 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		CEC03B242B8A37D700AD9475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CED0BBCB2B8F0EB7009BEEDE /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		CED0BBCD2B8F5595009BEEDE /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		CEED28622B972F000071F4A1 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
+		CEED28642B973DF10071F4A1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CEED28672B9747980071F4A1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,22 +76,73 @@
 		CEC03B152B8A37D400AD9475 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
-				CEC03B162B8A37D400AD9475 /* AppDelegate.swift */,
-				CEC03B182B8A37D400AD9475 /* SceneDelegate.swift */,
-				CEB3BC5A2B8DA73000C01D52 /* SearchVC.swift */,
-				CEB3BC5C2B8DA79E00C01D52 /* FavouritesListVC.swift */,
-				CEA188482B919F1E003F56FD /* FollowerListVC.swift */,
-				CED0BBCB2B8F0EB7009BEEDE /* GFButton.swift */,
-				CED0BBCD2B8F5595009BEEDE /* GFTextField.swift */,
-				CEA1884A2B91E5D2003F56FD /* GFTitleLabel.swift */,
-				CEA1884C2B91E924003F56FD /* GFBodyLabel.swift */,
-				CEA1884E2B91EAD5003F56FD /* GFAlertVC.swift */,
-				CEA188502B924CA7003F56FD /* UIViewController+Ext.swift */,
-				CEC03B1F2B8A37D700AD9475 /* Assets.xcassets */,
-				CEC03B212B8A37D700AD9475 /* LaunchScreen.storyboard */,
+				CEED28662B9746950071F4A1 /* Managers */,
+				CEED28612B972EED0071F4A1 /* Model */,
+				CEED28602B97166F0071F4A1 /* Support */,
+				CEED285F2B9714170071F4A1 /* Extensions */,
+				CEED285E2B9712F40071F4A1 /* Custom Views */,
+				CEED285D2B9712980071F4A1 /* Screens */,
 				CEC03B242B8A37D700AD9475 /* Info.plist */,
 			);
 			path = GHFollowers;
+			sourceTree = "<group>";
+		};
+		CEED285D2B9712980071F4A1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				CEB3BC5A2B8DA73000C01D52 /* SearchVC.swift */,
+				CEB3BC5C2B8DA79E00C01D52 /* FavouritesListVC.swift */,
+				CEA188482B919F1E003F56FD /* FollowerListVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		CEED285E2B9712F40071F4A1 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				CED0BBCB2B8F0EB7009BEEDE /* GFButton.swift */,
+				CED0BBCD2B8F5595009BEEDE /* GFTextField.swift */,
+				CEA1884A2B91E5D2003F56FD /* GFTitleLabel.swift */,
+				CEA1884E2B91EAD5003F56FD /* GFAlertVC.swift */,
+				CEA1884C2B91E924003F56FD /* GFBodyLabel.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		CEED285F2B9714170071F4A1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CEA188502B924CA7003F56FD /* UIViewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CEED28602B97166F0071F4A1 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				CEC03B162B8A37D400AD9475 /* AppDelegate.swift */,
+				CEC03B182B8A37D400AD9475 /* SceneDelegate.swift */,
+				CEC03B1F2B8A37D700AD9475 /* Assets.xcassets */,
+				CEC03B212B8A37D700AD9475 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		CEED28612B972EED0071F4A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEED28622B972F000071F4A1 /* Follower.swift */,
+				CEED28642B973DF10071F4A1 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEED28662B9746950071F4A1 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CEED28672B9747980071F4A1 /* NetworkManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEED28652B973DF10071F4A1 /* User.swift in Sources */,
 				CED0BBCE2B8F5595009BEEDE /* GFTextField.swift in Sources */,
 				CEB3BC5B2B8DA73000C01D52 /* SearchVC.swift in Sources */,
 				CED0BBCC2B8F0EB7009BEEDE /* GFButton.swift in Sources */,
@@ -165,7 +223,9 @@
 				CEC03B172B8A37D400AD9475 /* AppDelegate.swift in Sources */,
 				CEA1884F2B91EAD5003F56FD /* GFAlertVC.swift in Sources */,
 				CEA1884D2B91E924003F56FD /* GFBodyLabel.swift in Sources */,
+				CEED28632B972F000071F4A1 /* Follower.swift in Sources */,
 				CEA1884B2B91E5D2003F56FD /* GFTitleLabel.swift in Sources */,
+				CEED28682B9747980071F4A1 /* NetworkManager.swift in Sources */,
 				CEA188492B919F1E003F56FD /* FollowerListVC.swift in Sources */,
 				CEB3BC5D2B8DA79E00C01D52 /* FavouritesListVC.swift in Sources */,
 				CEC03B192B8A37D400AD9475 /* SceneDelegate.swift in Sources */,
