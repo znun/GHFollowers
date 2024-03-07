@@ -9,18 +9,22 @@ import UIKit
 
 class GFAvatarImageView: UIImageView {
     
-    let placeholderImage = UIImage(named: "avatar-placeholder")!
+   // let placeholderImage = UIImage(named: "avatar-placeholder")!
 
+    let placeholderImage = UIImage(systemName: "person.circle")
+                                   
     override init(frame: CGRect) {
         super.init(frame: frame)
         
         configure()
+       
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
+  
     
     
     private func configure() {

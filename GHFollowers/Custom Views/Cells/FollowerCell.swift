@@ -15,6 +15,8 @@ class FollowerCell: UICollectionViewCell {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        
+        configure()
     }
     
     required init?(coder: NSCoder) {
@@ -23,6 +25,8 @@ class FollowerCell: UICollectionViewCell {
     
     func set(follower: Follower) {
         usernameLabel.text = follower.login
+        
+        
     }
     
     private func configure() {
