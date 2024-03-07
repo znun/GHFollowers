@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE96F0672B99DE3F00D5707D /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE96F0662B99DE3F00D5707D /* UIHelper.swift */; };
 		CEA188492B919F1E003F56FD /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA188482B919F1E003F56FD /* FollowerListVC.swift */; };
 		CEA1884B2B91E5D2003F56FD /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1884A2B91E5D2003F56FD /* GFTitleLabel.swift */; };
 		CEA1884D2B91E924003F56FD /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1884C2B91E924003F56FD /* GFBodyLabel.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE96F0662B99DE3F00D5707D /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		CEA188482B919F1E003F56FD /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		CEA1884A2B91E5D2003F56FD /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
 		CEA1884C2B91E924003F56FD /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				CEE9C34D2B983C9600F5C714 /* GFError.swift */,
+				CE96F0662B99DE3F00D5707D /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				CEB3BC5B2B8DA73000C01D52 /* SearchVC.swift in Sources */,
 				CED0BBCC2B8F0EB7009BEEDE /* GFButton.swift in Sources */,
 				CEA188512B924CA7003F56FD /* UIViewController+Ext.swift in Sources */,
+				CE96F0672B99DE3F00D5707D /* UIHelper.swift in Sources */,
 				CEE9C3532B98724D00F5C714 /* GFAvatarImageView.swift in Sources */,
 				CEC03B172B8A37D400AD9475 /* AppDelegate.swift in Sources */,
 				CEA1884F2B91EAD5003F56FD /* GFAlertVC.swift in Sources */,
