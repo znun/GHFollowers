@@ -27,6 +27,7 @@
 		CEED28632B972F000071F4A1 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED28622B972F000071F4A1 /* Follower.swift */; };
 		CEED28652B973DF10071F4A1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED28642B973DF10071F4A1 /* User.swift */; };
 		CEED28682B9747980071F4A1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED28672B9747980071F4A1 /* NetworkManager.swift */; };
+		CEEFFD6C2BA051E5003A2ECC /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEFFD6B2BA051E5003A2ECC /* GFEmptyStateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		CEED28622B972F000071F4A1 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		CEED28642B973DF10071F4A1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CEED28672B9747980071F4A1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CEEFFD6B2BA051E5003A2ECC /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,13 +128,13 @@
 		CEED285E2B9712F40071F4A1 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				CEEFFD6A2BA0518E003A2ECC /* Labels */,
+				CEEFFD692BA05149003A2ECC /* ViewControllers */,
+				CEEFFD682BA05141003A2ECC /* ImageViews */,
+				CEEFFD672BA05135003A2ECC /* TextFields */,
+				CEEFFD662BA0512D003A2ECC /* Buttons */,
+				CEEFFD652BA05126003A2ECC /* Views */,
 				CEE9C34F2B986F9800F5C714 /* Cells */,
-				CED0BBCB2B8F0EB7009BEEDE /* GFButton.swift */,
-				CED0BBCD2B8F5595009BEEDE /* GFTextField.swift */,
-				CEA1884A2B91E5D2003F56FD /* GFTitleLabel.swift */,
-				CEA1884E2B91EAD5003F56FD /* GFAlertVC.swift */,
-				CEA1884C2B91E924003F56FD /* GFBodyLabel.swift */,
-				CEE9C3522B98724D00F5C714 /* GFAvatarImageView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -171,6 +173,55 @@
 				CEED28672B9747980071F4A1 /* NetworkManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		CEEFFD652BA05126003A2ECC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEEFFD6B2BA051E5003A2ECC /* GFEmptyStateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEEFFD662BA0512D003A2ECC /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				CED0BBCB2B8F0EB7009BEEDE /* GFButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		CEEFFD672BA05135003A2ECC /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				CED0BBCD2B8F5595009BEEDE /* GFTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		CEEFFD682BA05141003A2ECC /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				CEE9C3522B98724D00F5C714 /* GFAvatarImageView.swift */,
+			);
+			path = ImageViews;
+			sourceTree = "<group>";
+		};
+		CEEFFD692BA05149003A2ECC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEA1884E2B91EAD5003F56FD /* GFAlertVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CEEFFD6A2BA0518E003A2ECC /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				CEA1884A2B91E5D2003F56FD /* GFTitleLabel.swift */,
+				CEA1884C2B91E924003F56FD /* GFBodyLabel.swift */,
+			);
+			path = Labels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +308,7 @@
 				CEA1884D2B91E924003F56FD /* GFBodyLabel.swift in Sources */,
 				CEED28632B972F000071F4A1 /* Follower.swift in Sources */,
 				CEA1884B2B91E5D2003F56FD /* GFTitleLabel.swift in Sources */,
+				CEEFFD6C2BA051E5003A2ECC /* GFEmptyStateView.swift in Sources */,
 				CEED28682B9747980071F4A1 /* NetworkManager.swift in Sources */,
 				CEA188492B919F1E003F56FD /* FollowerListVC.swift in Sources */,
 				CEB3BC5D2B8DA79E00C01D52 /* FavouritesListVC.swift in Sources */,
